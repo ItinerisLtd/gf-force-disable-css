@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:     GF Force Disable CSS
- * Plugin URI:      https://itinerisltd.github.io/add-yoast-seo-sitemap-to-robots-txt/
+ * Plugin URI:      https://github.com/ItinerisLtd/gf-force-disable-css/
  * Description:     Force Gravity Forms to disable CSS.
  * Version:         0.1.0
  * Author:          Itineris Limited
