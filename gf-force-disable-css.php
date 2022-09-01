@@ -3,7 +3,7 @@
  * Plugin Name:     GF Force Disable CSS
  * Plugin URI:      https://github.com/ItinerisLtd/gf-force-disable-css/
  * Description:     Force Gravity Forms to disable CSS.
- * Version:         0.1.0
+ * Version:         0.1.2
  * Author:          Itineris Limited
  * Author URI:      https://www.itineris.co.uk/
  * Text Domain:     gf-force-disable-css
@@ -18,6 +18,8 @@ if (! defined('WPINC')) {
     die;
 }
 
-add_filter('pre_option_rg_gforms_disable_css', function (): string {
-    return '1';
-});
+add_filter(
+    'pre_option_rg_gforms_disable_css', function (): string {
+        return '1';
+    }
+);
