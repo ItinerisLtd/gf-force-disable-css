@@ -18,6 +18,8 @@ if (! defined('WPINC')) {
     die;
 }
 
+add_filter('gform_disable_css', '__return_true');
+
 add_filter(
     'pre_option_rg_gforms_disable_css', function (): string {
         return '1';
